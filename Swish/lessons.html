@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swish Swimming School</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            position: relative;
+            overflow-y: auto;
+            height: 100vh;
+        }
+
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('pool5.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            filter: blur(8px);
+            z-index: -1;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            padding-bottom: 50px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            color: black;
+        }
+
+        .logo img {
+            height: 100px;
+        }
+
+        nav {
+            flex-grow: 1;
+            text-align: right;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .benefits {
+            margin: 20px auto;
+            display: inline-block;
+            text-align: left;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        ul li {
+            background: #e0e0e0;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="content">
+        <header>
+            <div class="logo"><img src="Swish Logo.png" alt="Swish Swimming School Logo"></div>
+            <nav>
+                <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="lessons.html">Lessons</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact us.html">Contact Us</a>
+            </nav>
+        </header>
+</body>
+</html>
